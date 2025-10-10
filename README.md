@@ -1,13 +1,18 @@
+---
+layout: default
+title: "1. Giới thiệu Python và những chương trình đầu tiên"
+permalink: /1-giới-thiệu-python-và-những-chương-trình-đầu-tiên/
+---
+
 # LẬP TRÌNH PYTHON
 *Tác giả: Tạ Nguyễn Mạnh Trung*
 ## 📑 MỤC LỤC
 - [1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN](1-giới-thiệu-python-và-những-chương-trình-đầu-tiên)
 
-## 1.GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
+## 1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 [▲ Về mục lục](#-mục-lục)
 
-
-### Phần 1:  GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
+### Phần 1: GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 **1.1. Python là gì?**
 Python là ngôn ngữ lập trình bậc cao, được tạo ra bởi Guido van Rossum và ra mắt lần đầu năm 1991.
 
