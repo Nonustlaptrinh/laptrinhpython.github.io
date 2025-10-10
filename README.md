@@ -46,10 +46,10 @@ Python là ngôn ngữ lập trình bậc cao, được tạo ra bởi Guido van
 **Bước 3: Kiểm tra cài đặt**\
 Mở Command Prompt/Terminal và gõ:
 
-bash
+```bash
 
 python --version
-
+```
 **1.3. Chương trình Hello World**
 
 **Cách 1: Chế độ tương tác (Interactive Mode)**
