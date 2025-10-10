@@ -6,7 +6,7 @@
 ## 1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 [▲ Về mục lục](#-mục-lục)
     -[Phần 1: GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN](#phần-1-giới-thiệu-python-và-những-chương-trình-đầu-tiên)
-    -[Phần 2: ĐỊNH DANH VÀ TỪ KHÓA](#phần-2-dinh-danh-va-tu-hoa)
+    -[Phần 2: ĐỊNH DANH VÀ TỪ KHÓA](#phần-2-dinh-danh-va-tu-khoa)
 ## Phần 1: GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 **1.1. Python là gì?**
 Python là ngôn ngữ lập trình bậc cao, được tạo ra bởi Guido van Rossum và ra mắt lần đầu năm 1991.
