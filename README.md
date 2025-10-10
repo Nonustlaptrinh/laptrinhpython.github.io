@@ -1,10 +1,14 @@
 # LẬP TRÌNH PYTHON
 *Tác giả: Tạ Nguyễn Mạnh Trung*
+## 📑 MỤC LỤC
+- [1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN]( 1.giới_thiệu_python_và_những_chương_trình_đầu_tiên)
 
-**PHẦN 1: GIỚI THIỆU PYTHON VÀ CHƯƠNG TRÌNH ĐẦU TIÊN**
+## 1.GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
+[▲ Về mục lục](#-mục-lục)
 
+
+### Phần 1:  GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 **1.1. Python là gì?**
-
 Python là ngôn ngữ lập trình bậc cao, được tạo ra bởi Guido van Rossum và ra mắt lần đầu năm 1991.
 
 **Đặc điểm nổi bật:**
