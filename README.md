@@ -1,4 +1,4 @@
-**GIÁO ÁN PYTHON CHI TIẾT**
+GIÁO ÁN PYTHON CHI TIẾT##
 
 **PHẦN 1: GIỚI THIỆU PYTHON VÀ CHƯƠNG TRÌNH ĐẦU TIÊN**
 
@@ -46,35 +46,31 @@ python --version
 
 **Cách 1: Chế độ tương tác (Interactive Mode)**
 
-python
+```python
 
-\>>> print("Hello World!")
-
+>>> print("Hello World!")
 Hello World!
-
+```
 **Cách 2: Chạy từ file**\
 Tạo file hello.py:
 
-python
+```python
 
-*# Đây là chương trình đầu tiên*
-
+# Đây là chương trình đầu tiên
 message = "Hello World!"
-
 print(message)
-
+```
 Chạy chương trình:
 
-bash
+```bash
 
 python hello.py
-
+```
 **Kết quả:**
 
-text
-
+```text
 Hello World!
-
+```
 **1.4. Các công cụ lập trình Python**
 
 **IDLE (Python's Integrated Development Environment)**
@@ -103,106 +99,111 @@ Hello World!
 
 **Quy tắc đặt tên định danh:**
 
-python
+```python
 
-*# ĐÚNG - Bắt đầu bằng chữ cái*
+# ĐÚNG - Bắt đầu bằng chữ cái*
 
-ten\_bien = "giá trị"
-
-\_bien\_rieng = "private"
-
+ten_bien = "giá trị"
+_bien_rieng = "private"
 bien123 = 100
+```
+```python
+# SAI - Không hợp lệ
 
-*# SAI - Không hợp lệ*
-
-2ten = "value"      *# Bắt đầu bằng số*
-
-ten-bien = "value"  *# Chứa ký tự đặc biệt*
-
-class = "Python"    *# Trùng từ khóa*
-
+2ten = "value"       # Bắt đầu bằng số
+ten-bien = "value"   # Chứa ký tự đặc biệt
+class = "Python"     # Trùng từ khóa
+```
 **Quy ước đặt tên:**
 
-python
+```python
 
-*# Biến thông thường (snake\_case)*
+# Biến thông thường (snake_case)
 
-ten\_bien\_dai = "snake\_case"
+ten_bien_dai = "snake_case"
 
-*# Hằng số (UPPER\_CASE)*
+# Hằng số (UPPER_CASE)
 
-HANG\_SO\_PI = 3.14
+HANG_SO_PI = 3.14
+MAX_SIZE = 100
 
-MAX\_SIZE = 100
+# Biến private
 
-*# Biến private*
+_bien_rieng_tu = "internal"
+__bien_rat_rieng = "very private"
 
-\_bien\_rieng\_tu = "internal"
+# Tên đặc biệt (dunder methods)
 
-\_\_bien\_rat\_rieng = "very private"
-
-*# Tên đặc biệt (dunder methods)*
-
-\_\_init\_\_ = "constructor"
-
-\_\_name\_\_ = "module name"
-
+__init__ = "constructor"
+__name__ = "module name"
+```
 **2.2. Từ khóa trong Python**
 
 **Danh sách đầy đủ các từ khóa:**
 
-python
+```python
 
-*# Các từ khóa cơ bản*
+# Các từ khóa cơ bản
 
 False      class      finally    is         return
-
 None       continue   for        lambda     try
-
 True       def        from       nonlocal   while
-
 and        del        global     not        with
-
 as         elif       if         or         yield
-
 assert     else       import     pass
-
 break      except     in         raise
-
+```
 **Kiểm tra từ khóa:**
 
-python
+```python
 
 import keyword
-
 print("Tổng số từ khóa:", len(keyword.kwlist))
-
 print("Danh sách từ khóa:")
-
 for i, kw in enumerate(keyword.kwlist, 1):
-
-`    `print(f"{i:2d}. {kw}")
-
+    print(f"{i:2d}. {kw}")
+```
 **Kết quả:**
 
-text
-
+```text
 Tổng số từ khóa: 35
-
 Danh sách từ khóa:
-
-` `1. False
-
-` `2. None
-
-` `3. True
-
-` `4. and
-
-` `5. as
-
-... (và các từ khóa còn lại)
-
+ 1. False
+ 2. None
+ 3. True
+ 4. and
+ 5. as
+ 6. assert
+ 7. async
+ 8. await
+ 9. break
+10. class
+11. continue
+12. def
+13. del
+14. elif
+15. else
+16. except
+17. finally
+18. for
+19. from
+20. global
+21. if
+22. import
+23. in
+24. is
+25. lambda
+26. nonlocal
+27. not
+28. or
+29. pass
+30. raise
+31. return
+32. try
+33. while
+34. with
+35. yield
+```
 -----
 **PHẦN 3: CÚ PHÁP CƠ BẢN**
 
@@ -210,103 +211,82 @@ Danh sách từ khóa:
 
 **Quy tắc thụt lề:**
 
-python
+```python
 
-*# ĐÚNG - Thụt lề 4 spaces*
-
-def hello():
-
-`    `print("Hello")      *# 4 spaces*
-
-`    `return "World"      *# 4 spaces*
-
-*# SAI - Không thụt lề*
+# ĐÚNG - Thụt lề 4 spaces
 
 def hello():
-
-print("Hello")          *# Lỗi: expected an indented block*
-
-*# SAI - Thụt lề không nhất quán*
+    print("Hello")      # 4 spaces
+    return "World"      # 4 spaces
+```
+```python
+# SAI - Không thụt lề
 
 def hello():
+print("Hello")          # Lỗi: expected an indented block
+```
+```python
+# SAI - Thụt lề không nhất quán
 
-`    `print("Hello")      *# 4 spaces*
-
-`  `return "World"        *# 2 spaces - Lỗi*
-
+def hello():
+    print("Hello")      # 4 spaces
+  return "World"        # 2 spaces - Lỗi
+```
 **Ví dụ về cấu trúc khối code:**
 
-python
+```python
+# Khối code với thụt lề hợp lệ
 
-*# Khối code với thụt lề hợp lệ*
+def tinh_toan(a, b):
+  ket_qua = a + b     # Thụt lề 4 spaces
+  return ket_qua      # Thụt lề 4 spaces
 
-def tinh\_toan(a, b):
+# Gọi hàm
 
-`    `ket\_qua = a + b     *# Thụt lề 4 spaces*
-
-`    `return ket\_qua      *# Thụt lề 4 spaces*
-
-*# Gọi hàm*
-
-tinh\_toan(5, 3)
-
+tinh_toan(5, 3)
+```
 **3.2. Các lệnh trên nhiều dòng**
 
 **Sử dụng dấu \ cho các biểu thức dài:**
 
-python
+```python
+# Phép tính dài trên nhiều dòng
 
-*# Phép tính dài trên nhiều dòng*
+tong = (so_thu_nhat + 
+        so_thu_hai + 
+        so_thu_ba + 
+        so_thu_tu)
+```
+```python
+# Hoặc sử dụng dấu \
 
-tong = (so\_thu\_nhat + 
-
-`        `so\_thu\_hai + 
-
-`        `so\_thu\_ba + 
-
-`        `so\_thu\_tu)
-
-*# Hoặc sử dụng dấu \*
-
-tong = so\_thu\_nhat + \
-
-`        `so\_thu\_hai + \
-
-`        `so\_thu\_ba + \
-
-`        `so\_thu\_tu
-
+tong = so_thu_nhat + \
+        so_thu_hai + \
+        so_thu_ba + \
+        so_thu_tu
+```
 **Không cần \ với các cấu trúc container:**
 
-python
+```python
+# List trên nhiều dòng*
 
-*# List trên nhiều dòng*
-
-danh\_sach = [
-
-`    `"item1",
-
-`    `"item2", 
-
-`    `"item3",
-
-`    `"item4"
-
+danh_sach = [
+    "item1",
+    "item2", 
+    "item3",
+    "item4"
 ]
+```
+```python
+# Dictionary trên nhiều dòng
 
-*# Dictionary trên nhiều dòng*
-
-sinh\_vien = {
-
-`    `"ten": "Nguyễn Văn A",
-
-`    `"tuoi": 20,
-
-`    `"diem": 8.5,
-
-`    `"lop": "CNTT"
-
+sinh_vien = {
+    "ten": "Nguyễn Văn A",
+    "tuoi": 20,
+    "diem": 8.5,
+    "lop": "CNTT"
 }
+```
 
 *# Tuple trên nhiều dòng*
 
