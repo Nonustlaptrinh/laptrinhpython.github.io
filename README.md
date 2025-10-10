@@ -92,7 +92,7 @@ Hello World!
 - IDE chuyên cho Python
 - Nhiều tính năng nâng cao
 - Phiên bản Community miễn phí
------
+
 ## Phần 2: ĐỊNH DANH VÀ TỪ KHÓA
 
 **2.1. Định danh (Identifier) trong Python**
