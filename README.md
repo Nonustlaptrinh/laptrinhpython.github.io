@@ -5,7 +5,7 @@
 
 ## 1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 [▲ Về mục lục](#-mục-lục)
--[Phần 1: GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN](#phần-1-giới-thiệu-python-và-những-chương-trình-đầu-tiên)    
+-[Phần 1: GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN](#phần-1-giới-thiệu-python-và-những-chương-trình-đầu-tiên)   
 -[Phần 2: ĐỊNH DANH VÀ TỪ KHÓA](#phần-2-định-danh-và-từ-khoá) 
 -[Phần 3: CÚ PHÁP CƠ BẢN](#phần-3-cú-pháp-cơ-bản) 
 -[Phần 4: BIẾN VÀ KIỂU DỮ LIỆU](#phần-4-biến-và-kiểu-dữ-liệu) 
