@@ -97,7 +97,7 @@ Hello World!
 - Phiên bản Community miễn phí
 
 -----
-## Phần 2: ĐỊNH DANH VÀ TỪ KHÓA
+## Phần 2: ĐỊNH DANH VÀ TỪ KHOÁ
 
 **2.1. Định danh (Identifier) trong Python**
 
@@ -468,7 +468,7 @@ tap_hop: {1, 2, 3} - <class 'set'>
 la_dung: True - <class 'bool'>
 ```
 -----
-**Phần 5: TOÁN TỬ TRONG PYTHON**
+## Phần 5: TOÁN TỬ TRONG PYTHON
 
 **5.1. Toán tử số học (Arithmetic Operators)**
 
