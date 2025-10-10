@@ -1,9 +1,3 @@
----
-layout: default
-title: "1. Giới thiệu Python và những chương trình đầu tiên"
-permalink: /1-giới-thiệu-python-và-những-chương-trình-đầu-tiên/
----
-
 # LẬP TRÌNH PYTHON
 *Tác giả: Tạ Nguyễn Mạnh Trung*
 ## 📑 MỤC LỤC
