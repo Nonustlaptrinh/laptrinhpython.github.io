@@ -1,4 +1,5 @@
-GIÁO ÁN PYTHON CHI TIẾT##
+# LẬP TRÌNH PYTHON
+*Tác giả: Tạ Nguyễn Mạnh Trung*
 
 **PHẦN 1: GIỚI THIỆU PYTHON VÀ CHƯƠNG TRÌNH ĐẦU TIÊN**
 
