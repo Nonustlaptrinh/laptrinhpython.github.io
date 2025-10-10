@@ -1,7 +1,7 @@
 # LẬP TRÌNH PYTHON
 *Tác giả: Tạ Nguyễn Mạnh Trung*
 ## 📑 MỤC LỤC
-- [1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN](1-giới-thiệu-python-và-những-chương-trình-đầu-tiên)
+- [1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN](#1-giới-thiệu-python-và-những-chương-trình-đầu-tiên)
 
 ## 1. GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 [▲ Về mục lục](#-mục-lục)
