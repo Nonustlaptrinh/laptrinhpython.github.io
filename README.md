@@ -490,7 +490,7 @@ print(f"{a} ** {b} = {a ** b}")    # 1000 - Lũy thừa
 
 ```python
 chuoi = "Python"
-print(chuoi \* 3)        # PythonPythonPython
+print(chuoi * 3)        # PythonPythonPython
 print("Hello " + chuoi)  # Hello Python
 ```
 **5.2. Toán tử so sánh (Comparison Operators)**
