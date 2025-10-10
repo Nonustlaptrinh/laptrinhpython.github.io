@@ -55,25 +55,28 @@ Hello World!
 **Cách 2: Chạy từ file**\
 Tạo file hello.py:
 
-python
+```python
 
 *# Đây là chương trình đầu tiên*
 
 message = "Hello World!"
 
 print(message)
+```
 
 Chạy chương trình:
 
-bash
+```bash
 
 python hello.py
+```
 
 **Kết quả:**
 
-text
+```text
 
 Hello World!
+```
 
 **1.4. Các công cụ lập trình Python**
 
