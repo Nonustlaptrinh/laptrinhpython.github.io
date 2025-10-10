@@ -7,6 +7,9 @@
 [▲ Về mục lục](#-mục-lục)
     -[Phần 1: GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN](#phần-1-giới-thiệu-python-và-những-chương-trình-đầu-tiên)
     -[Phần 2: ĐỊNH DANH VÀ TỪ KHÓA](#phần-2-dinh-danh-va-tu-khoa)
+    -[Phần 3: CÚ PHÁP CƠ BẢN](#phần-3-cú-pháp-cơ-bản)
+    -[Phần 4: BIẾN VÀ KIỂU DỮ LIỆU](#phần-4-biến-và-kiểu-dữ-liệu)
+    -[Phần 5: TOÁN TỬ TRONG PYTHON](#phần-5-toán-tử-trong-python)
 ## Phần 1: GIỚI THIỆU PYTHON VÀ NHỮNG CHƯƠNG TRÌNH ĐẦU TIÊN
 **1.1. Python là gì?**
 Python là ngôn ngữ lập trình bậc cao, được tạo ra bởi Guido van Rossum và ra mắt lần đầu năm 1991.
@@ -205,7 +208,7 @@ Danh sách từ khóa:
 35. yield
 ```
 -----
-**PHẦN 3: CÚ PHÁP CƠ BẢN**
+## Phần 3: CÚ PHÁP CƠ BẢN
 
 **3.1. Dòng lệnh và thụt lề**
 
@@ -349,7 +352,7 @@ def tinh_binh_phuong(x):
 print(tinh_binh_phuong.__doc__)
 ```
 -----
-**PHẦN 4: BIẾN VÀ KIỂU DỮ LIỆU**
+## Phần 4: BIẾN VÀ KIỂU DỮ LIỆU
 
 **4.1. Biến trong Python**
 
@@ -465,7 +468,7 @@ tap_hop: {1, 2, 3} - <class 'set'>
 la_dung: True - <class 'bool'>
 ```
 -----
-**PHẦN 5: TOÁN TỬ TRONG PYTHON**
+**Phần 5: TOÁN TỬ TRONG PYTHON**
 
 **5.1. Toán tử số học (Arithmetic Operators)**
 
