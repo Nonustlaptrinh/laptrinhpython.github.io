@@ -1,84 +1,106 @@
-🔑 Các cú pháp cơ bản trong OOP Python
-1. Định nghĩa lớp
-python
-class Person:
-    pass
-Từ khóa class dùng để khai báo lớp.
+Tuyệt vời 👏 Bạn đã có nền tảng Python vững, nên mình có thể tập trung sâu vào **tư duy hướng đối tượng** và **ứng dụng thực tế**.
+Dưới đây là **khung giáo trình 10 buổi OOP trong Python (từ cơ bản → nâng cao)** — gồm: mục tiêu, nội dung, ví dụ thực hành, và mini-project cuối mỗi phần.
 
-pass chỉ là placeholder khi chưa viết nội dung.
+---
 
-2. Hàm khởi tạo (__init__)
-python
-class Person:
-    def __init__(self, name, age):
-        self.name = name   # thuộc tính
-        self.age = age
-__init__ là constructor.
+## 🧩 GIÁO TRÌNH OOP TRONG PYTHON (10 BUỔI)
 
-self đại diện cho đối tượng hiện tại.
+### **Buổi 1 – Giới thiệu về Lập trình Hướng đối tượng**
 
-3. Tạo đối tượng (instance)
-python
-p1 = Person("Alice", 25)
-print(p1.name)  # Alice
-Gọi lớp như một hàm để tạo đối tượng.
+* **Mục tiêu:** Hiểu OOP là gì, tại sao dùng OOP.
+* **Nội dung:**
 
-4. Phương thức (methods)
-python
-class Person:
-    def __init__(self, name):
-        self.name = name
-    
-    def greet(self):
-        return f"Xin chào, tôi là {self.name}"
-Phương thức là hàm bên trong lớp, luôn có tham số self.
+  * So sánh lập trình thủ tục vs hướng đối tượng
+  * Khái niệm lớp (class), đối tượng (object), thuộc tính, phương thức
+* **Thực hành:** Tạo class `Car` cơ bản, khởi tạo đối tượng.
+* **Mini-project:** “Quản lý xe hơi” (Car Manager).
 
-5. Thuộc tính lớp vs thuộc tính đối tượng
-python
-class Dog:
-    species = "Canis familiaris"  # thuộc tính lớp
-    
-    def __init__(self, name):
-        self.name = name          # thuộc tính đối tượng
-Thuộc tính lớp: dùng chung cho mọi đối tượng.
+---
 
-Thuộc tính đối tượng: riêng cho từng instance.
+### **Buổi 2 – Hàm khởi tạo & thuộc tính**
 
-6. Kế thừa (Inheritance)
-python
-class Animal:
-    def speak(self):
-        print("Animal sound")
+* **Mục tiêu:** Làm chủ `__init__()` và biến instance/class.
+* **Nội dung:**
 
-class Dog(Animal):
-    def speak(self):
-        print("Woof!")
-Lớp Dog kế thừa từ Animal.
+  * Phân biệt thuộc tính instance & class
+  * Cách truyền tham số vào constructor
+* **Thực hành:** Class `Student` quản lý thông tin học sinh.
+* **Mini-project:** “Hệ thống quản lý học viên”.
 
-Có thể ghi đè phương thức (method overriding).
+---
 
-7. Đa hình (Polymorphism)
-python
-def make_sound(animal):
-    animal.speak()
+### **Buổi 3 – Encapsulation (Đóng gói dữ liệu)**
 
-make_sound(Dog())   # Woof!
-make_sound(Animal()) # Animal sound
-Cùng một hàm nhưng hành vi khác nhau tùy đối tượng.
+* **Mục tiêu:** Bảo vệ dữ liệu bằng getter/setter, hiểu private & protected.
+* **Thực hành:** `BankAccount` với số dư, rút/gửi tiền an toàn.
+* **Mini-project:** “Mô phỏng tài khoản ngân hàng”.
 
-8. Đóng gói (Encapsulation)
-python
-class BankAccount:
-    def __init__(self, balance):
-        self.__balance = balance   # thuộc tính private
-    
-    def deposit(self, amount):
-        self.__balance += amount
-    
-    def get_balance(self):
-        return self.__balance
-Dùng __ để tạo thuộc tính private.
+---
 
-Truy cập qua phương thức thay vì trực tiếp.
+### **Buổi 4 – Inheritance (Kế thừa)**
 
-9. Phương thức đặc biệt (Magic methods)
+* **Mục tiêu:** Tái sử dụng mã, xây dựng hệ thống phân cấp lớp.
+* **Thực hành:** `Person → Student, Teacher`
+* **Mini-project:** “Hệ thống trường học”.
+
+---
+
+### **Buổi 5 – Polymorphism (Đa hình)**
+
+* **Mục tiêu:** Hiểu cách ghi đè phương thức, duck typing trong Python.
+* **Thực hành:** Lớp `Shape → Circle, Rectangle`.
+* **Mini-project:** “Tính diện tích các hình”.
+
+---
+
+### **Buổi 6 – Magic methods & operator overloading**
+
+* **Mục tiêu:** Dùng `__str__`, `__repr__`, `__add__`, `__len__`...
+* **Thực hành:** Class `Vector` với phép cộng và hiển thị đẹp.
+* **Mini-project:** “Mini Math Library”.
+
+---
+
+### **Buổi 7 – Class methods, static methods, properties**
+
+* **Mục tiêu:** Phân biệt 3 loại phương thức & dùng hợp lý.
+* **Thực hành:** Class `Date` với kiểm tra hợp lệ, tạo từ chuỗi.
+* **Mini-project:** “Quản lý thời gian / lịch học”.
+
+---
+
+### **Buổi 8 – Composition & Aggregation**
+
+* **Mục tiêu:** Kết hợp nhiều lớp với nhau.
+* **Thực hành:** `Library` chứa `Book` và `Author`.
+* **Mini-project:** “Quản lý thư viện”.
+
+---
+
+### **Buổi 9 – Thiết kế OOP nâng cao**
+
+* **Mục tiêu:** Nắm nguyên lý SOLID cơ bản, tư duy thiết kế.
+* **Thực hành:** Refactor hệ thống cũ bằng nguyên lý SRP và OCP.
+* **Mini-project:** “Quản lý cửa hàng (Store Management System)”.
+
+---
+
+### **Buổi 10 – Tổng kết và Dự án cuối khóa**
+
+* **Mục tiêu:** Ứng dụng toàn bộ kiến thức OOP.
+* **Dự án:** Chọn 1 trong 3 hướng:
+
+  1. Game mini (Snake, Tic-Tac-Toe)
+  2. Quản lý học viên / bán hàng
+  3. Ứng dụng console nhỏ (Task Manager)
+* **Đánh giá:** Thiết kế lớp, đóng gói, kế thừa, đa hình, clean code.
+
+---
+
+Mình có thể giúp bạn bước tiếp theo bằng cách:
+
+* 🧠 Soạn **kế hoạch chi tiết cho buổi 1** (mục tiêu, slide, ví dụ, bài tập),
+  hoặc
+* 🏗️ Tạo **template project** mà bạn sẽ phát triển qua từng buổi.
+
+👉 Bạn muốn mình bắt đầu với hướng nào trước?
